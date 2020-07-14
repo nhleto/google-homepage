@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Google</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet.css" href="">
+    </head>
+    <style>
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        font-size: 13px;
+      }
+      header{
+      display: grid;
+      grid-template-columns: auto auto 1fr auto auto auto auto;
+      margin: 0;
+      padding: 15px;
+      }
+      footer{
+        left: 0;
+        background-color: #f2f2f2;
+        display: grid;
+        grid-template-columns: auto auto auto 1fr auto auto auto;
+        height: 40px;
+        position: fixed;
+        bottom: 0;
+        max-height: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color:rgb(107, 107, 107);
+        width: 100%;
+        margin: 0 auto;
+      }
+      #Logo{
+        text-align: center;
+        padding-top: 150px;
+        }
+      #search-area{
+        text-align: center;
+        width: auto;
+      }
+      #search{
+        width: 484px;
+        height: 42px;
+        border-radius: 30px;
+        padding-left: 30px;
+        border-width: .5px;
+        border-color: rgb(228, 226, 226);
+        margin-top: 20px;
+        border-style: groove;
+      }
+      .button{
+        align-items: center;
+        border-radius: 5px; 
+        height: 36px;
+        border-style: none;
+        width: 129px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(107, 107, 107);
+        background-color: #f2f2f2;
+      }
+      #Google-Search-Button{
+        position: relative;
+        top: 20px;
+        right:20px;
+      }
+      #Im-feeling-lucky{
+        position: relative;
+        top: 20px;
+      }
+      section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px 0 10px;
+        }
+      #Settings{
+        padding-right: 40px;
+      }
+      #Advertising{
+        padding-left: 20px;
+      }
+    </style>
+    <body>
+          <header>
+              <section id="about">About</section>
+              <section id="store">Store</section>
+              <section id="blank"></section>
+              <section id="Gmail">Gmail</section>
+              <section id="Images">Images</section>
+              <section id="App Menu">App Menu</section>
+              <section id="Google Account">Google Account</section>
+          </header>
+          <main>
+            <div id="Logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt= "googlelogo"></div>
+              <div id="search-area">
+                <input id="search" type="text"></input>
+                <div>
+                  <button class="button" id="Google-Search-Button" type="Google Search">Google Search</button>
+                  <button class="button" id="Im-feeling-lucky" type="Button">I'm feeling lucky</button>
+                </div>
+              </div>
+          </main>
+          <footer>
+            <section id="Advertising">Advertising</section>
+            <section id="Business">Business</section>
+            <section id="How Search Works">How Search Works</section>
+            <section id="blank"></section>
+            <section id="Privacy">Privacy</section>
+            <section id="Terms">Terms</section>
+            <section id="Settings">Settings</section>
+          </footer>
+    </body>
+</html>
